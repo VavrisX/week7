@@ -36,7 +36,7 @@ function random() {
     else { 
         $("#myText").text("FALSE");
         navigator.notification.beep(4);      
-        navigator.vibrate([200, 300, 500, 200, 200, 200]);      
+        navigator.vibrate([200, 300, 500, 200, 200, 200, 2000,2000]);      
     }
     
 }
