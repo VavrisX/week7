@@ -1,6 +1,8 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
- function onDeviceReady() {}
+ function onDeviceReady() {
+      alert("device rdy");  
+ }
      
      
      
@@ -9,7 +11,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
     random();
   });            
 });      
- alert("device rdy");    
+    
  
 
 
@@ -18,7 +20,8 @@ function random() {
     
 var Rnum = Math.floor((Math.random() * 10) + 1);
     
-if(Rnum >= 1 && Rnum < 5){$("#myText").text("TRUE");
+if(Rnum >= 1 && Rnum < 5){
+    $("#myText").text("TRUE");
   navigator.notification.beep(1);                       
   navigator.vibrate(2000);                     
    } 
