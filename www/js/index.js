@@ -29,13 +29,13 @@ function random() {
     
     if(Rnum >= 1 && Rnum < 5){
         $("#myText").text("TRUE");
-       // navigator.notification.beep(1);  
+        navigator.notification.beep(1);  
         navigator.vibrate(2000);                     
     } 
 
     else { 
         $("#myText").text("FALSE");
-       // navigator.notification.beep(2);      
+        navigator.notification.beep(2);      
         navigator.vibrate([200, 300, 500]);      
     }
     
