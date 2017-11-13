@@ -1,13 +1,14 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
  function onDeviceReady() {
+     
     $(document).on("pagecreate","#pageone",function(){
   $('#stuff').on("click", function(){
     random();
   });            
 });      
      
- }
+ 
 
 function random() {
     
@@ -24,3 +25,4 @@ else { $("#myText").text("FALSE");
          }
     
 }
+ }
