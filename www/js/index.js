@@ -1,4 +1,4 @@
- console.log("js loaded");
+
 
 document.addEventListener("deviceready", onDeviceReady, false);
 
@@ -35,8 +35,8 @@ function random() {
 
     else { 
         $("#myText").text("FALSE");
-        navigator.notification.beep(2);      
-        navigator.vibrate([200, 300, 500]);      
+        navigator.notification.beep(4);      
+        navigator.vibrate([200, 300, 500, 200, 200, 200]);      
     }
     
 }
