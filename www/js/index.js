@@ -1,5 +1,4 @@
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
+
     
     
     
@@ -23,5 +22,4 @@ else { $("#myText").text("FALSE");
    navigator.vibrate([200, 300, 500]);      
          }
     
-}
 }
